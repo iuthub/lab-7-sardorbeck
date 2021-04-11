@@ -7,7 +7,7 @@ include('connection.php');
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 	<head>
-		<title>My Blog - Registration Form</title>
+		<title>My Blog: Registration Form</title>
 		<link href="style.css" type="text/css" rel="stylesheet" />
 	</head>
 	
@@ -23,7 +23,7 @@ include('connection.php');
 						<input type="text" name="username" id="username" required/>
 					</li>
 					<li>
-						<label for="fullname">Full Name</label>
+						<label for="fullname">Full name</label>
 						<input type="text" name="fullname" id="fullname" required/>
 					</li>
 					<li>
@@ -45,3 +45,5 @@ include('connection.php');
 		</form>
 	</body>
 </html>
+
+// register page
